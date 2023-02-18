@@ -1,0 +1,44 @@
+Relevent text from article Quality Control Charts with Python
+by
+Roberto Salazar
+
+May 11, 2020
+https://towardsdatascience.com/quality-control-charts-guide-for-python-9bb1c859c051
+Python for Industrial Engineers
+
+Quality Control Charts with Python
+Creating Quality Control Charts using Python libraries
+Image by Sara Kurfeß available at Unsplash
+Quality Control Charts
+
+
+x chart and mR chart
+
+The x chart (also known as individual chart) and mR chart are used to monitor the mean and variation of a process based on individual samples taken in a given time. In order to use the mR chart along with the x chart, the sample size n must be equal to 1. On the x chart, the y-axis shows the mean and the control limits while the x-axis shows the sample units. On the mR chart, the y-axis shows the moving range grand mean and the control limits while the x-axis shows the sample units.
+
+x-bar chart and R chart
+
+The x-bar and R-chart are used to monitor the mean and variation of a process based on samples taken in a given time. In order to use the R chart along with the x-bar chart, the sample size n must be greater than 1 and less than 11.On the x-bar chart, the y-axis shows the grand mean and the control limits while the x-axis shows the sample group. On the R chart, the y-axis shows the range grand mean and the control limits while the x-axis shows the sample group.
+
+x-bar chart and s chart
+
+In the same way, the x-bar and s chart are used to monitor the mean and variation of a process based on samples taken in a given time. In order to use the s chart along with the x-bar chart, the sample size n must be greater than 10 units. On the x-bar chart, the y-axis shows the grand mean and the control limits while the x-axis shows the sample group. On the s chart, the y-axis shows the standard deviation grand mean and the control limits while the x-axis shows the sample group.
+Control Charts for Discrete Data
+
+c-chart
+
+The c-chart is used to monitor the total count of defects in fixed samples of size n. The y-axis shows the number of nonconformities per sample while the x-axis shows the sample group.
+
+u-chart
+
+The u-chart is used to monitor the total count of defects per unit in different samples of size n; it assumes that units can have more than a single defect. The y-axis shows the number of defects per single unit while the x-axis shows the sample group.
+
+p-chart
+
+The p-chart is used to monitor the proportion of nonconforming units in different samples of size n; it is based on the binomial distribution where each unit has only two possibilities (i.e. defective or not defective). The y-axis shows the proportion of nonconforming units while the x-axis shows the sample group.
+
+np-chart
+
+The np-chart is used to monitor the count of nonconforming units in fixed samples of size n. The y-axis shows the total count of nonconforming units while the x-axis shows the sample group.
+
+
